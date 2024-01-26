@@ -38,6 +38,8 @@ function iscollide(snacke){
     if(snacke[0].x > 20 || snacke[0].x < 0 || snacke[0].y > 20 || snacke[0].y < 0){
         return true;
     }
+
+
 }
 
 function gameEngine(){
@@ -51,7 +53,7 @@ function gameEngine(){
                 x: 14 , y: 16
             }
         ]
-        score = 0;
+        scorebox.innerHTML = "Score :" + 0;
     }
 
 
